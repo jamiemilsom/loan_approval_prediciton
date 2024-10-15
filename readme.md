@@ -1,5 +1,5 @@
 # Loan Approval Prediciton 
-## 2024  <img src="Kaggle_logo.png" alt="Kaggle logo" height = "25" style="vertical-align: middle;"/>  Playground Series Competition
+## 2024  <img src="readme/Kaggle_logo.png" alt="Kaggle logo" height = "25" style="vertical-align: middle;"/>  Playground Series Competition
 
 
 This project is my submission for the Kaggle Playground Series: Loan Approval Prediction competition. The goal is to predict whether an applicant will be approved for a loan, using machine learning techniques on a synthetically-generated dataset based on real-world data.
@@ -35,6 +35,11 @@ The project utilises several key machine learning techniques:
 2. Install the required packages:
    ```
    pip install -r requirements.txt
+   ```
+3. To use the sql database to combine more datasets edit the sql setup file and run:
+   ``` 
+   cd data
+   sqlite3 loan_approval.db < database_setup.sql
    ```
 
 ## Key Features
